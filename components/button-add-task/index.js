@@ -9,10 +9,8 @@ const ButtonAddTask = ({ onPressCallBack }) => (
     onPress={() => onPressCallBack()}
   >
     <Icon color={APP_COLORS.primaryText} name={'add'} />
- </ActionButton>
+  </ActionButton>
 );
 
- 
-);
 
 export default ButtonAddTask;
